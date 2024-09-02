@@ -1,0 +1,25 @@
+.cls-1 {
+  fill: #fff;
+}
+
+.cls-2,
+.cls-3,
+.cls-4 {
+  fill: #00d8ff;
+}
+
+.cls-5,
+.cls-3 {
+  font-family: Arial-BoldMT, Arial;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.cls-5,
+.cls-6 {
+  fill: #563d7c;
+}
+
+.cls-4 {
+  fill-rule: evenodd;
+}

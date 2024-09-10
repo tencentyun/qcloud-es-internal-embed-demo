@@ -100,12 +100,14 @@ function App() {
           </Card>
           {submittedData.spaceId && submittedData.token && (
             <>
-              <div>当前访问地址：{kibanaUrl}</div>
+              <div style={{ wordBreak: "break-all" }}>
+                当前访问地址：{kibanaUrl}
+              </div>
               <iframe
                 id="kibana-iframe"
                 src={kibanaUrl}
                 width="100%"
-                height="100%"
+                height="800px"
                 ref={iframeRef}
                 allow="clipboard-write"
                 style={{ display: submittedData.spaceId ? "block" : "none" }}

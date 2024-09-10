@@ -15,7 +15,7 @@ export const useSesInternalEmbedDemo = ({
 } => {
   // 内网域名按此规则拼接
   const internalUrl = useMemo(
-    () => `https://${spaceId}-internal.kibana.qcloudes.com:443`,
+    () => `https://${spaceId}-internal.kibana.qcloudes.com`,
     [spaceId]
   );
 
